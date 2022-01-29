@@ -1,0 +1,10 @@
+gino==1.0.1
+loguru==0.5.3
+nb-cli==0.5.3
+pypinyin==0.41.0
+pytz==2021.3
+ruamel.yaml==0.17.17
+ruamel.yaml.clib==0.2.6
+ujson==4.3.0
+nonebot_plugin_analysis_bilibili
+nonebot-plugin-apscheduler==0.1.2
