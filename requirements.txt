@@ -1,0 +1,6 @@
+nb-cli
+nonebot_plugin_petpet
+nonebot_plugin_memes
+nonebot_plugin_covid19_news
+nonebot_plugin_emojimix
+nonebot_plugin_caiyunai
