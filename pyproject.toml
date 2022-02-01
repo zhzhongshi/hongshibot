@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "hongshibot_dev"
+name = "hongshibot-dev"
 version = "0.1.0"
-description = "hongshibot_dev"
+description = "hongshibot-dev"
 authors = []
 readme = "README.md"
 
@@ -13,7 +13,7 @@ nonebot2 = "^2.0.0-beta.1"
 nb-cli = "^0.6.0"
 
 [tool.nonebot]
-plugins = ["nonebot_plugin_petpet", "nonebot_plugin_memes", "nonebot_plugin_covid19_news", "nonebot_plugin_emojimix", "nonebot_plugin_caiyunai"]
+plugins = ["nonebot_plugin_memes", "nonebot_plugin_petpet", "nonebot_plugin_wordcloud","nonebot_plugin_chess"]
 plugin_dirs = ["src/plugins"]
 
 [build-system]

@@ -16,6 +16,7 @@ from nonebot.adapters.onebot.v11 import Adapter as ONEBOT_V11Adapter
 # You can pass some keyword args config to init function
 nonebot.init()
 app = nonebot.get_asgi()
+
 driver = nonebot.get_driver()
 driver.register_adapter(ONEBOT_V11Adapter)
 

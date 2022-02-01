@@ -1,4 +1,4 @@
-# hongshibot_dev
+# hongshibot-dev
 
 ## How to start
 
