@@ -1,9 +1,13 @@
 msgpack
 nb-cli
+nonebot-adapter-onebot
 nonebot_plugin_caiyunai
 nonebot_plugin_chess
 nonebot_plugin_covid19_news
 nonebot_plugin_emojimix
+nonebot-plugin-help
+nonebot-plugin-heweather
+nonebot-plugin-htmlrender
 nonebot_plugin_memes
 nonebot_plugin_petpet
 nonebot_plugin_wordcloud
