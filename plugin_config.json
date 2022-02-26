@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        "nonebot_plugin_apscheduler",
+        "nonebot_plugin_htmlrender", 
+        "nonebot_plugin_memes", 
+        "nonebot_plugin_petpet", 
+        "nonebot_plugin_wordcloud",
+        "nonebot_plugin_chess", 
+        "nonebot_plugin_heweather", 
+        "nonebot_plugin_help", 
+        "nonebot_plugin_puppet", 
+        "nonebot_plugin_withdraw",
+        "nonebot_plugin_caiyunai", 
+        "nonebot_plugin_logo", 
+        "nonebot_plugin_covid19_news",
+        "nonebot_plugin_alias", 
+        "nonebot_plugin_russian", 
+        "nonebot_plugin_atri", 
+        "nonebot_plugin_shindan", 
+        "nonebot_plugin_tarot"
+    ],
+    "plugin_dirs": ["src/plugins"]
+}

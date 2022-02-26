@@ -1,11 +1,32 @@
 import io
 
 from nonebot import on_command
-from nonebot.adapters.cqhttp import Bot, MessageEvent, MessageSegment
+from nonebot.adapters.onebot.v11 import Bot, MessageEvent, MessageSegment
 from nonebot.adapters.onebot.v11.message import Message
 from nonebot.plugin import require
 from nonebot.params import State, CommandArg
 from PIL import Image
+
+#按照XZhouQD/nonebot-plugin-help要求的帮助及用法
+# 若此文本不存在，将显示包的__doc__
+__help_plugin_name__ = "render" 
+__des__ = 'nonebot_plugin_htmlrender的示例插件，支持代码高亮，LaTeX'
+__cmd__ = '''
+Markdown转图片：
+md2pic
+<md文本>
+纯文本转图片：text2pic <文本>
+'''.strip()
+# __short_cmd__ = 'md2pic,text2pic'
+__example__ = '''
+md2pic
+# 随机一图
+![随机一图](https://iw233.cn/api/Random.php)
+-----
+text2pic 文本传图片
+'''.strip()
+
+__usage__ = f'{__des__}\nUsage:\n{__cmd__}\n\nExample:\n{__example__}'
 
 # 纯文本转图片
 text2pic = on_command("text2pic")
