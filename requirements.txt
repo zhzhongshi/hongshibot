@@ -21,3 +21,4 @@ nonebot_plugin_russian
 nonebot_plugin_atri
 nonebot_plugin_shindan
 nonebot_plugin_tarot
+random_cat_gif

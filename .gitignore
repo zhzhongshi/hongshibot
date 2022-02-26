@@ -138,3 +138,4 @@ dmypy.json
 .pytype/
 data/
 # End of https://www.toptal.com/developers/gitignore/api/python
+src/plugins/disabled/nonebot_plugin_fortune
