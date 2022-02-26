@@ -2,7 +2,7 @@ import asyncio
 import httpx
 from matplotlib.pyplot import table
 
-url="https://iw233.cn/API/Random.php"
+url="https://iw233.cn/api/Random.php"
 async def getImgUrl():
     async with httpx.AsyncClient() as client:
         returl=""
