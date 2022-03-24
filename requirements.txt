@@ -22,3 +22,4 @@ nonebot_plugin_atri
 nonebot_plugin_shindan
 nonebot_plugin_tarot
 random_cat_gif
+nonebot_plugin_simplemusic
